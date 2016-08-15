@@ -47,6 +47,7 @@ double mySum(double X, unsigned int N)
 	}
 	else
 	{
+		// Sum of X to X + 3 => X + (X+1) + (X+2) + (X+3)
 		return (X + N) + mySum(X, N - 1);
 	}
 }
